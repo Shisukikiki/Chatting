@@ -6,13 +6,13 @@ import Filter from 'bad-words'
 import { ref, onUnmounted, computed } from 'vue'
 
 firebase.initializeApp({
-  apiKey: 'AIzaSyB8wCedK_F2OndvTDB3GZSBDQywCvXpF3A',
-  authDomain: 'vue-chat-app-66a52.firebaseapp.com',
-  projectId: 'vue-chat-app-66a52',
-  storageBucket: 'vue-chat-app-66a52.appspot.com',
-  messagingSenderId: '685063628423',
-  appId: '1:685063628423:web:41e353a86af06542d73a22',
-  measurementId: 'G-5CDFJEL1FB'
+  apiKey: 'AIzaSyBBm0vvJBRt4wywWiMFSnO-j0hpH4mLH6w',
+  authDomain: 'akiyoshi-chat.firebaseapp.com',
+  projectId: 'akiyoshi-chat',
+  storageBucket: 'akiyoshi-chat.appspot.com',
+  messagingSenderId: '1096099264353',
+  appId: '1:1096099264353:web:b4cf1aff5a210097453720',
+  measurementId: 'G-5CLKE9TSWP'
 })
 
 const auth = firebase.auth()
