@@ -1,7 +1,7 @@
 <template>
   <nav>
     <div>
-      <h1><strong>Vue</strong> Akiyoshi</h1>
+      <h1><strong>Akiyoshi</strong> Chatting</h1>
 
       <div v-if="isLogin" class="login">
         <Avatar :src="user.photoURL" />
